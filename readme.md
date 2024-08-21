@@ -20,9 +20,9 @@ No trabalho havia os seguintes requisitos:
   - Foram criados três grafos distintos: São José do Campestre, Medium e Santana do Seridó.
 
 ### Requisito 2:
-### ![Grafo do Medium](/imagens/Medium_Eigenvector.png)
 
 *Medium:*
+### ![Grafo do Medium](/imagens/Medium_Eigenvector.png)
 Nesta imagem, utilizei a estratégia do Eigenvector Centrality porque ela é eficaz para destacar os nós mais relevantes e influentes na rede. Os dados são diferenciados por cor e tamanho:
 
 - **Tamanho dos Nós:** Indica a influência do nó, ou seja, se ele é mais ou menos importante com base nos vizinhos dos seus vizinhos.
@@ -30,13 +30,14 @@ Nesta imagem, utilizei a estratégia do Eigenvector Centrality porque ela é efi
 
 Observa-se que, embora o nó correspondente ao Medium seja central, ele tem vizinhos que são ainda mais influentes do que ele.
 
-### ![Grafo de Santana do Seridó](/imagens/santana_closeness_centraliy.png)
 *Santana do seridó:*
+### ![Grafo de Santana do Seridó](/imagens/santana_closeness_centraliy.png)
 Aqui, usei a métrica de Closeness Centrality porque ela permite identificar quais nós estão mais próximos dos outros na rede, ou seja, quais páginas são mais acessíveis dentro do contexto de Santana no Wikipedia.
 
-### ![Grafo de São José do Campestre](/imagens/sao jose campestre_cloness_centraliy.png)
 
 *São José do Campestre:*
+
+### ![Grafo de São José do Campestre](./imagens/sao_jose_campestre_cloness%20centraliy.png)
 Neste grafo, também utilizei a métrica de Closeness Centrality. Assim como no grafo de Santana, os nós têm tamanhos aproximadamente iguais, o que indica que a influência entre eles é similar. No entanto, ao observar as cores, é possível ver que alguns nós são significativamente mais centrais, destacando-se como os principais na rede.
 
 ### Requisito 3:
@@ -72,7 +73,7 @@ A concentração de nós com graus baixos (no intervalo de 0 a 10) mostra que a 
 
 Quase todos os nós têm graus muito baixos, com uma alta concentração em nós com graus próximos a 0. Isso sugere que a maioria das páginas é altamente isolada ou conectada a pouquíssimas outras páginas.
 
-#### Histograma com Zoom (Degree Histogram - Zoom) - Direita:
+#### Histograma com Zoom (Degree Histogram - Zoom):
 
 O zoom revela uma variação nos graus baixos (0 a 10), com alguns nós tendo apenas 1 ou 2 conexões, e outros alcançando até 10 conexões. A maior concentração está nos nós com graus muito baixos, especialmente em torno de 2, indicando que a maioria das páginas está conectada a poucas outras.
 
@@ -95,7 +96,8 @@ A visualização da rede para São José do Campestre mostra uma estrutura bem c
 Em comparação, o grafo de Santana do Seridó apresenta uma estrutura menos densa, com um k-core de 9. Isso indica que a rede tem um núcleo central menos conectado, com a camada k-shell de 7 representando uma periferia mais esparsa.
 
 ### Medium:
-### ![Grafo do Medium](/imagens/medium_histograma.png)
+### ![Grafo do Medium](/imagens/medium.svg)
+
 - **k-core:** 11 (amarelo)
 - **k-shell:** 10 (vermelho)
 
@@ -105,14 +107,14 @@ O grafo da rede Medium tem um k-core de 11, sugerindo uma estrutura intermediár
 
 A identificação de comunidades dentro de um grafo é essencial para entender como os nós se agrupam em subestruturas coesas, que podem representar grupos de interesse, tópicos ou clusters temáticos.
 
-### ![Grafo com Comunidades de Sao Jose do Campestre](/imagens/sjc comunidades.svg)
+### ![Grafo com Comunidades de Sao Jose do Campestre](./imagens/sjc_comunidades.svg)
 
 - São José do Campestre: A rede foi dividida em 6 comunidades distintas. Cada comunidade foi colorida para facilitar a visualização das inter-relações dentro do grafo. As cores destacam as áreas onde os nós têm conexões mais densas, revelando a segmentação natural da rede.
 
-### ![Grafo com Comunidades de Santana do Seridó](/imagens/santana comunidades.svg)
+### ![Grafo com Comunidades de Santana do Seridó](./imagens/santana_comunidades.svg)
 
 - Santana do Seridó: Foram identificadas 4 comunidades na rede. Essas comunidades mostram uma segmentação mais simples, com menos divisões internas, refletindo uma rede mais pequena ou menos complexa.
 
-### ![Grafo com Comunidades do Medium](/imagens/medium comunidades.svg)
+### ![Grafo com Comunidades do Medium](./imagens/medium_comunidades.svg)
 
 - Medium: A análise revelou 11 comunidades distintas. A maior quantidade de comunidades sugere uma rede com uma estrutura temática rica e diversificada, onde diferentes tópicos ou grupos de interesse estão claramente delineados.
