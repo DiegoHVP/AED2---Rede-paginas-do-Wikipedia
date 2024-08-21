@@ -118,3 +118,9 @@ A identificação de comunidades dentro de um grafo é essencial para entender c
 ### ![Grafo com Comunidades do Medium](./imagens/medium_comunidades.svg)
 
 - Medium: A análise revelou 11 comunidades distintas. A maior quantidade de comunidades sugere uma rede com uma estrutura temática rica e diversificada, onde diferentes tópicos ou grupos de interesse estão claramente delineados.
+
+
+### Video
+
+Aqui esta um video de 10 minutos contendo uma breve explicação do codigo e resultados obtidos
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Hh96tnUBH9c?si=ymtf-UoMyRZr8T7D" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
