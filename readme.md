@@ -122,5 +122,5 @@ A identificação de comunidades dentro de um grafo é essencial para entender c
 
 ### Video
 
-Aqui esta um video de 10 minutos contendo uma breve explicação do codigo e resultados obtidos
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Hh96tnUBH9c?si=ymtf-UoMyRZr8T7D" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+Aqui esta um video de 10 minutos contendo uma breve explicação do codigo e resultados obtido
+[![AED 2 - Rede de wikipedia](https://img.youtube.com/vi/Hh96tnUBH9c/0.jpg)](https://www.youtube.com/watch?v=Hh96tnUBH9c)
